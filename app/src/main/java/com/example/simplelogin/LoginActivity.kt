@@ -32,7 +32,9 @@ class LoginActivity : AppCompatActivity() {
         login.setOnClickListener {
             login()
         }
-
+        this.findViewById<TextView>(R.id.tvRegisterLink).setOnClickListener{
+            startActivity(Intent(this, RegisterActivity::class.java))
+        }
     }
 
     private fun login() {

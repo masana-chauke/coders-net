@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Simple Login</string>
+    <string name="app_name">EMS</string>
     <string name="username_place_holder">username</string>
     <string name="password_place_holder">password</string>
     <string name="login">Login</string>
