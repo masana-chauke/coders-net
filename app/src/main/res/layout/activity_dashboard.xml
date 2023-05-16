@@ -1,65 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
-<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
-<!--    xmlns:tools="http://schemas.android.com/tools"-->
-<!--    android:layout_width="match_parent"-->
-<!--    android:layout_height="match_parent"-->
-<!--    tools:context=".DashboardActivity">-->
-
-
-<!--    <TextView-->
-<!--        android:id="@+id/tvTitle"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:fontFamily="sans-serif-thin"-->
-<!--        android:padding="10dp"-->
-<!--        android:text="EMS"-->
-<!--        android:textColor="@color/colorPrimaryDark"-->
-<!--        android:textSize="60sp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.498"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:layout_constraintVertical_bias="0.098" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/tvSubtitle"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_marginTop="36dp"-->
-<!--        android:text="USER DASHBOARD"-->
-<!--        android:textColor="#000"-->
-<!--        android:textSize="20sp"-->
-<!--        android:textStyle="bold"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/tvTitle"-->
-<!--        app:layout_constraintVertical_bias="0.0" />-->
-
-<!--    <TextView-->
-<!--        android:id="@+id/tvWelcome"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:textSize="30sp"-->
-<!--        android:textColor="@color/colorPrimary"-->
-<!--        android:text="Here is you dashboard"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintHorizontal_bias="0.5"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent" />-->
-
-
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".DashboardActivity">
 
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/slider"
@@ -69,10 +14,10 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="13dp"
-        android:layout_marginTop="82dp"
-        android:layout_marginEnd="13dp"
-        android:layout_marginBottom="499dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="490dp"
         app:sliderAnimationDuration="600"
         app:sliderAutoCycleDirection="back_and_forth"
         app:sliderIndicatorAnimationDuration="600"
@@ -84,6 +29,37 @@
         app:sliderIndicatorRadius="2dp"
         app:sliderIndicatorSelectedColor="#5A5A5A"
         app:sliderIndicatorUnselectedColor="#FFF"
-        app:sliderScrollTimeInSec="1" />
+        app:sliderScrollTimeInSec="1"/>
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="280dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="401dp"
+        android:text="The Evolution of Software Development: Unleashing Innovation in the Digital Age"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="363dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="204dp"
+        android:text="Software development has become the backbone of our rapidly evolving digital world. From the simple apps we use on our smartphones to the complex systems that power industries, software is at the core of modern innovation. In this blog, we will explore the fascinating journey of software development, from its early days to the cutting-edge technologies shaping its future. Join us as we dive into the world of code, collaboration, and creativity." />
 </RelativeLayout>
+
+
+
