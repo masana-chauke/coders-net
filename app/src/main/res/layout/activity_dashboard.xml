@@ -61,6 +61,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <include
+        layout="@layout/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/slider"
         android:layout_width="385dp"
@@ -85,5 +89,6 @@
         app:sliderIndicatorSelectedColor="#5A5A5A"
         app:sliderIndicatorUnselectedColor="#FFF"
         app:sliderScrollTimeInSec="1" />
+
 
 </RelativeLayout>

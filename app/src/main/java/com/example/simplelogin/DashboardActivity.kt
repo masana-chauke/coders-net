@@ -39,5 +39,7 @@ class DashboardActivity : AppCompatActivity() {
         sliderView.setAutoCycle(true);
         // on below line setting start cycle for slider view.
         sliderView.startAutoCycle();
+
+
     }
 }
