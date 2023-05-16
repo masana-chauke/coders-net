@@ -6,4 +6,5 @@
     </style>
 
     <style name="Theme.SimpleLogin" parent="Base.Theme.SimpleLogin" />
+
 </resources>
