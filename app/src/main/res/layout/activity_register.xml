@@ -15,10 +15,9 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-thin"
         android:padding="10dp"
-        android:text="EMS"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="coders net"
+        android:textColor="@color/textColor"
         android:textSize="60sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -32,9 +31,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="USER REGISTRATION"
-        android:textColor="@color/colorPrimaryDark"
+        android:textColor="@color/textColor"
         android:textSize="20sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/btnRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,63 +41,87 @@
 
     <EditText
         android:id="@+id/etRUserName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="4dp"
+        android:height="50dp"
         android:ems="10"
         android:hint="Username"
         android:inputType="text"
+        android:textColorHint="@color/hintsColor"
         android:textSize="20sp"
-        android:textColor="@color/colorPrimaryDark"
-        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvSubtitle"
-        app:layout_constraintVertical_bias="0.041" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
 
     <EditText
         android:id="@+id/etRPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_width="240dp"
+        android:layout_height="46dp"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etRUserName"
-        app:layout_constraintVertical_bias="0.07" />
-
-    <Button
-        android:id="@+id/btnRegister"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimaryDark"
-        android:text="REGISTER"
-        android:textColor="@color/colorAccent"
-        android:textSize="16sp"
+        android:textColorHint="@color/hintsColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.888" />
+        app:layout_constraintVertical_bias="0.665" />
+
+<!--    <Button-->
+<!--        android:id="@+id/btnRegister"-->
+<!--        android:layout_width="109dp"-->
+<!--        android:layout_height="51dp"-->
+<!--        android:background="@color/colorPrimaryDark"-->
+<!--        android:text="REGISTER"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.461"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.86" />-->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.86" />
 
     <TextView
         android:id="@+id/tvLoginLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
         android:gravity="center"
         android:text="Already a user?\nClick here to login"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/textColor"
         app:layout_constraintBottom_toBottomOf="@+id/btnRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="110dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/etRPassword"
-        app:layout_constraintVertical_bias="0.125" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.357"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

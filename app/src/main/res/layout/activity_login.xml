@@ -26,7 +26,7 @@
         android:ems="10"
         android:inputType="textEmailAddress"
         android:hint="@string/username_place_holder"
-        android:textColorHint="@color/colorPrimaryDark"
+        android:textColorHint="@color/hintsColor"
         android:ellipsize="end"
         android:height="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,38 +46,26 @@
         android:ems="10"
         android:hint="@string/password_place_holder"
         android:inputType="textPassword"
-        android:textColorHint="@color/colorPrimaryDark"
+        android:textColorHint="@color/hintsColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.456"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="77dp"
-        android:layout_height="92dp"
-        android:src="@drawable/img"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.303"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintVertical_bias="0.548" />
 
     <TextView
         android:id="@+id/tvRegisterLink"
         android:layout_width="130dp"
         android:layout_height="53dp"
         android:text="New user?\nClick here to register"
+        android:textColor="@color/textColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.423"
+        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.707" />
+        app:layout_constraintVertical_bias="0.691" />
 
     <TextView
         android:id="@+id/tvTitle"
@@ -85,14 +73,25 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-thin"
         android:padding="10dp"
-        android:text="EMS"
-        android:textColor="@color/colorPrimaryDark"
+        android:text="coders net"
+        android:textColor="@color/textColor"
         android:textSize="60sp"
-        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.107" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="118dp"
+        android:layout_height="124dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.276"
+        app:srcCompat="@drawable/logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>
