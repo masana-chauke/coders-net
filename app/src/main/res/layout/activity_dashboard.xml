@@ -7,6 +7,10 @@
     tools:context=".DashboardActivity">
 
 
+    <include
+        layout="@layout/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/slider"
         android:layout_width="385dp"
@@ -115,6 +119,7 @@
         android:layout_marginEnd="50dp"
         android:layout_marginBottom="204dp"
         android:text="Software development has become the backbone of our rapidly evolving digital world. From the simple apps we use on our smartphones to the complex systems that power industries, software is at the core of modern innovation. In this blog, we will explore the fascinating journey of software development, from its early days to the cutting-edge technologies shaping its future. Join us as we dive into the world of code, collaboration, and creativity." />
+
 </RelativeLayout>
 
 
