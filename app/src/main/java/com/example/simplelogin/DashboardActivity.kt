@@ -21,6 +21,14 @@ class DashboardActivity : AppCompatActivity() {
         "https://w0.peakpx.com/wallpaper/1021/487/HD-wallpaper-technology-code-programming-programmer.jpg"
     var url3 =
         "https://quotefancy.com/media/wallpaper/3840x2160/2000910-Joel-Spolsky-Quote-Good-software-like-wine-takes-time.jpg"
+    var url4 = "https://wallpapercave.com/w/wp1867861.jpg"
+    var url5 = "https://wallpapercave.com/wp/wp1867881.jpg"
+    var url6 = "https://wallpapercave.com/w/wp1867882.jpg"
+    var url7 = "https://wallpapercave.com/w/wp1867878.jpg"
+    var url8 = "https://wallpapercave.com/w/wp1867909.jpg"
+    var url9 = "https://wallpapercave.com/w/wp1867901.jpg"
+    var url10 = "https://wallpapercave.com/w/wp1867881.jpg"
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +41,13 @@ class DashboardActivity : AppCompatActivity() {
         sliderDataArrayList.add(url1)
         sliderDataArrayList.add(url2)
         sliderDataArrayList.add(url3)
+        sliderDataArrayList.add(url4)
+        sliderDataArrayList.add(url5)
+        sliderDataArrayList.add(url6)
+        sliderDataArrayList.add(url7)
+        sliderDataArrayList.add(url8)
+        sliderDataArrayList.add(url9)
+        sliderDataArrayList.add(url10)
         // on below line initializing our adapter class by passing our list to it.
         val adapter = SliderAdapter(sliderDataArrayList)
         // on below line setting auto cycle direction for slider view from left to right.
