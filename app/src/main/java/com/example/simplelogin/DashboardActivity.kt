@@ -21,12 +21,12 @@ class DashboardActivity : AppCompatActivity() {
         "https://w0.peakpx.com/wallpaper/1021/487/HD-wallpaper-technology-code-programming-programmer.jpg"
     var url3 =
         "https://quotefancy.com/media/wallpaper/3840x2160/2000910-Joel-Spolsky-Quote-Good-software-like-wine-takes-time.jpg"
-    var url4 = "https://wallpapercave.com/w/wp1867861.jpg"
+    var url4 = "https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=2000&t=st=1684302472~exp=1684303072~hmac=97f7c2175cf79b5bfaf3979353ca0d499d375b28e2cbbb925d713f5da31e5a05.jpg"
     var url5 = "https://wallpapercave.com/wp/wp1867881.jpg"
     var url6 = "https://wallpapercave.com/w/wp1867882.jpg"
     var url7 = "https://wallpapercave.com/w/wp1867878.jpg"
     var url8 = "https://wallpapercave.com/w/wp1867909.jpg"
-    var url9 = "https://wallpapercave.com/w/wp1867901.jpg"
+    var url9 = "https://img.freepik.com/free-vector/digital-coding-background-with-numbers-zero-one_1017-30363.jpg?w=2000&t=st=1684302623~exp=1684303223~hmac=c16fec4f43ea45513cf5a6308835c2be30721fdb5ed82c0fd8f9e471a15ea68d.jpg"
     var url10 = "https://wallpapercave.com/w/wp1867881.jpg"
 
 
