@@ -1,14 +1,20 @@
 package com.example.simplelogin
 
 import android.os.Bundle
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.smarteist.autoimageslider.SliderView
 import java.util.*
+
+
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
 class DashboardActivity : AppCompatActivity() {
     // creating variable for slider view
     lateinit var sliderView: SliderView
 
-    // on below line creating variables for image urls.
+//     on below line creating variables for image urls.
     var url1 =
         "https://e1.pxfuel.com/desktop-wallpaper/898/482/desktop-wallpaper-200-beautiful-software-engineer-for-you-software-engineer.jpg"
     var url2 =
@@ -39,5 +45,8 @@ class DashboardActivity : AppCompatActivity() {
         sliderView.setAutoCycle(true);
         // on below line setting start cycle for slider view.
         sliderView.startAutoCycle();
+
+
+
     }
 }
