@@ -11,6 +11,7 @@
         layout="@layout/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
     <com.smarteist.autoimageslider.SliderView
         android:id="@+id/slider"
         android:layout_width="385dp"
@@ -79,17 +80,19 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_height="81dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="303dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginBottom="378dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="354dp"
         android:text="The Evolution of Software Development: Unleashing Innovation in the Digital Age"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <ImageView
@@ -104,21 +107,37 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:src="@drawable/logo" />
-        
+
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
-        android:layout_height="164dp" 
+        android:layout_height="164dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="363dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginBottom="204dp"
-        android:text="Software development has become the backbone of our rapidly evolving digital world. From the simple apps we use on our smartphones to the complex systems that power industries, software is at the core of modern innovation. In this blog, we will explore the fascinating journey of software development, from its early days to the cutting-edge technologies shaping its future. Join us as we dive into the world of code, collaboration, and creativity." />
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="187dp"
+        android:text="Software development has become the backbone of our rapidly evolving digital world. From the simple apps we use on our smartphones to the complex systems that power industries, software is at the core of modern innovation. In this blog, we will explore the fascinating journey of software development, from its early days to the cutting-edge technologies shaping its future. Join us as we dive into the world of code, collaboration, and creativity."
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="558dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="86dp"
+        android:text="The Dawn of Software Development. The roots of software development can be traced back to the early days of computing. In the 1950s and 1960s, programming was a laborious task performed by a handful of skilled individuals."
+        android:textColor="@color/textColor" />
 
 </RelativeLayout>
 

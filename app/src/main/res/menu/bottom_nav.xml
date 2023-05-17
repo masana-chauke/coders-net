@@ -8,14 +8,14 @@
         android:textColor="@color/white"
         />
     <item
-        android:title="Dashboard"
+        android:title="Newsfeed"
         android:id="@+id/dashboard"
         android:icon="@drawable/ic_dashboard_foreground"
         android:iconTint="@color/white"
         android:textColor="@color/white"
        />
     <item
-        android:title="Profile"
+        android:title="Quotes"
         android:id="@+id/profile"
         android:icon="@drawable/ic_person_foreground"
         android:iconTint="@color/white"
